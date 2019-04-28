@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+  <header>
+
+    <h1>Welcome to my Portfolio</h1>
+    <p>Léna, codeuse féministe & littéraire</p>
+
+
+  </header>
+
+  <nav>
+    <ul>
+      <a href="index.html">html</a>
+      <a href="php.html">php</a>
+      <a href="sql.html">sql</a>
+    </ul>
+  </nav>
+  <main>
+    <form method="POST">
+        <input name="nom" placeholder="nom" required><br>
+        <input name="prenom" placeholder="prenom" required><br>
+        <input name="email" placeholder="adresse email" type="email" required><br>
+        <input type="number" min="3" max="99" name= age placeholder="age"><br>
+        <input type="tel" name="phone" pattern="[0-9]{10}" placeholder="téléphone (0123456789)"><br>
+        <span>Genre: </span><input type="radio" name="radio"><span>Homme</span><input type="radio" name="radio"><span>Femme</span><br>
+        <div><span>Couleur préférée: </span> <input type="color" name="color" value="#000"></div>
+        <span>Date:</span>
+        <input type="date" autocomplete><br>
+        <span>Technologie concerné:</span>
+        <select name="techno">
+            <option>PHP</option>
+            <option>SQL</option>
+            <option>HTML</option>
+        </select><br>
+        <label for="question"></label>
+        <textarea name="question" cols="50" rows="5" placeholder="Une question?"></textarea><br>
+        <input type="submit" name="envoyer" value="Soumettre"/>
+    </form>
+  </main>
+  <aside>
+  </aside>
+  <footer>
+    Léna de Firmas - 0609630543 - 19, rue des Lyanes 75020
+  </footer>
+
+</body>
+</html>
